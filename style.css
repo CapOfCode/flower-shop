@@ -2,19 +2,19 @@
 /* Univarsal Design */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
-.container{
+.container {
     padding: 0 8%;
 
 }
 
 
-.btn{
+.btn {
     background-color: #E55473;
     font-size: 18px;
     font-weight: 400;
@@ -24,7 +24,7 @@
     border-radius: 8px;
 }
 
-.regular-p-tag{
+.regular-p-tag {
     font-size: 16px;
     font-weight: 400;
     margin: 30px 0;
@@ -33,22 +33,29 @@
     line-height: 25px;
 }
 
-.title{
-font-size: 25px;
-font-weight: 700;
-color: #272727;
-text-align: center;
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #272727;
+    text-align: center;
 }
 
+.sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #272727;
+    margin: 30px 0;
+
+}
 
 /* Header Section Design */
 
-#header-section{
+#header-section {
     /* background-color: #E55473; */
-    background-color:  rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,44 +64,45 @@ text-align: center;
 
 }
 
-.banner-text-container{
+.banner-text-container {
     width: 50%;
 }
 
-.banner-title{
+.banner-title {
     font-size: 60px;
     font-weight: 900;
     color: #272727;
 }
 
-.banner-description{
-text-align: left;
+.banner-description {
+    text-align: left;
 }
 
-.banner-image-container{
-    height: 600px;
-    width: 480px;
+.banner-image-container {
+    height: 580px;
+    width: 460px;
 
 
 }
-.banner-image{
+
+.banner-image {
     height: 100%;
     width: 100%;
 }
 
 /* Our Featured Flowers Section Design */
-#feature-section{
+#feature-section {
     padding: 100px 0 20px;
 }
 
-.featured-card-container{
+.featured-card-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.featured-card{
+.featured-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -102,47 +110,44 @@ text-align: left;
 }
 
 
-.featured-card-image{
+.featured-card-image {
     display: flex;
     align-items: end;
     justify-content: center;
     height: 350px;
     width: 300px;
-    padding: 30px 20px 0 ;
+    padding: 30px 20px 0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    
+
 }
 
-.featured-card-image img{
+.featured-card-image img {
     height: 90%;
     width: 80%;
 }
 
-.card-1{
+.card-1 {
     background-color: rgba(167, 33, 98, 0.15);
- }
- 
- .card-2{
-     background-color: rgba(5, 151, 160, 0.15);
-     align-items: center;
-     
-  }
- .card-3{
-     background-color: rgba(71, 125, 17, 0.15);
-  }
+}
 
-.featured-card-text{
-    font-size: 18px;
-    font-weight: 700;
-    color: #272727;
-    margin: 30px 0;
+.card-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    align-items: center;
+
+}
+
+.card-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-card-text {
     box-shadow: 0px 1px 0px 0px #272727;
 }
 
 /* Our Featured Flowers Section [Insight Banner] Design  */
 
-.service-insight{
+.service-insight {
     background-color: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
@@ -151,15 +156,16 @@ text-align: left;
 
 }
 
-.insight-card{
+.insight-card {
     text-align: center;
 }
-.insight-card-img{
+
+.insight-card-img {
     height: 65px;
     width: 65px;
 }
 
-.insight-card-text{
+.insight-card-text {
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.8);
@@ -170,36 +176,36 @@ text-align: left;
 /* Our Hot Sale Section Design  */
 
 
-#hot-sale-banner{
+#hot-sale-banner {
     /* background-color: #E55473; */
-    background-color:  rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     height: 50vh;
     padding: 6% 0;
 }
 
 
-.sale-banner-container{
+.sale-banner-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.hot-sale-text-container{
+.hot-sale-text-container {
     text-align: center;
-    width:50%;
+    width: 50%;
 
 }
 
-.hot-sale-title{
+.hot-sale-title {
     font-weight: 900;
     font-size: 28px;
 }
 
-.hot-sale-title span{
-   color: #E55473;
+.hot-sale-title span {
+    color: #E55473;
 }
 
-.hot-sale-image{
+.hot-sale-image {
     height: 300px;
     width: 240px;
 }
@@ -207,6 +213,30 @@ text-align: left;
 
 /* Our Latest Section Design  */
 
-#blog-section{
+#blog-section {
     height: 100vh;
+    padding: 100px 0;
+}
+
+#blog-section .regular-p-tag{
+    margin: 15px 0;
+}
+
+.post-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.post-card {
+    text-align: center;
+    background-color: rgba(229, 84, 115, 0.20);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.post-cta .sub-title{
+    margin: 15px 0;
 }
