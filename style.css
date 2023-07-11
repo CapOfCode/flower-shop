@@ -92,7 +92,7 @@
 
 /* Our Featured Flowers Section Design */
 #feature-section {
-    padding: 6% 0 20px;
+    padding: 7.5% 0 0;
 }
 
 .featured-card-container {
@@ -181,7 +181,7 @@
 
 #blog-section {
     height: 100vh;
-    padding: 6% 0;
+    padding: 5% 0 10%;
 }
 
 #blog-section .regular-p-tag {
@@ -267,7 +267,7 @@
 /* Instagram Section Design  */
 
 #instagram-section {
-    padding: 6% 0;
+    padding: 7% 0;
 }
 
 .insta-card-container {
