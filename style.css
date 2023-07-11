@@ -178,7 +178,7 @@
 
 #hot-sale-banner {
     /* background-color: #E55473; */
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.1);
     height: 50vh;
     padding: 6% 0;
 }
@@ -218,7 +218,7 @@
     padding: 6% 0;
 }
 
-#blog-section .regular-p-tag{
+#blog-section .regular-p-tag {
     margin: 15px 0;
 }
 
@@ -237,29 +237,71 @@
     padding-bottom: 15px;
 }
 
-.post-cta .sub-title{
+.post-cta .sub-title {
     margin: 15px 0;
 }
 
+
 /* Instagram Section Design  */
-#instagram-section{
-    /* background-color: rgb(255, 59, 102); */
+
+#instagram-section {
     background-color: rgba(229, 84, 115, 0.10);
     padding: 6% 0;
 }
 
-.insta-card-container{
+.insta-card-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin: 40px 0 80px;
 }
 
-.image-card{
+.image-card {
     height: 290px;
     width: 250px;
 }
 
-.image-card img{
+.image-card img {
     height: 100%;
     width: 100%;
+}
+
+
+
+/* Subscribe Section Design aka Get the Deals */
+
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('asset/Rectangle\ 9.png');
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.cupon-title {
+    font-weight: 900;
+}
+
+.cupon-text {
+    margin: 10px 0 40px;
+}
+
+.subscribe-cta {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+input {
+    background-color: white;
+    color: rgba(39, 39, 39, 0.6);
+    border: none;
+    padding: 15px 10px;
+    border-radius: 8px;
+    width: 45%;
 }
