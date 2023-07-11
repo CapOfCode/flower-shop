@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
 /* Univarsal Design */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@
     padding: 0 8%;
 
 }
-
 
 .btn {
     background-color: #E55473;
@@ -45,13 +44,11 @@
     font-weight: 700;
     color: #272727;
     margin: 30px 0;
-
 }
 
 /* Header Section Design */
 
 #header-section {
-    /* background-color: #E55473; */
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -81,8 +78,6 @@
 .banner-image-container {
     height: 580px;
     width: 460px;
-
-
 }
 
 .banner-image {
@@ -90,7 +85,10 @@
     width: 100%;
 }
 
+
+
 /* Our Featured Flowers Section Design */
+
 #feature-section {
     padding: 80px 0 0;
 }
@@ -109,7 +107,6 @@
     align-items: center;
 }
 
-
 .featured-card-image {
     display: flex;
     align-items: end;
@@ -119,7 +116,6 @@
     padding: 30px 20px 0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-
 }
 
 .featured-card-image img {
@@ -134,7 +130,6 @@
 .card-2 {
     background-color: rgba(5, 151, 160, 0.15);
     align-items: center;
-
 }
 
 .card-2 img {
@@ -149,6 +144,8 @@
     box-shadow: 0px 1px 0px 0px #272727;
 }
 
+
+
 /* Our Featured Flowers Section [Insight Banner] Design  */
 
 .service-insight {
@@ -157,7 +154,6 @@
     justify-content: space-around;
     padding: 80px 80px;
     margin: 80px 0;
-
 }
 
 .insight-card {
@@ -175,6 +171,7 @@
     color: rgba(39, 39, 39, 0.8);
     margin-top: 30px;
 }
+
 
 
 /* Our Latest blog post Section Design  */
@@ -202,8 +199,6 @@
     padding-bottom: 15px;
 }
 
-
-
 .post-cta small {
     color: rgba(39, 39, 39, 0.6);
 }
@@ -217,14 +212,14 @@
     margin: 15px 0;
 }
 
-
 .post-cta .sub-title {
     margin: 15px 0 2px;
 }
 
 
-/* Our Hot Sale Section Design  */
 
+
+/* Our Hot Sale Section Design  */
 
 #hot-sale-banner {
 
@@ -232,7 +227,6 @@
     height: 50vh;
     padding: 80px 0;
 }
-
 
 .sale-banner-container {
     display: flex;
@@ -243,7 +237,6 @@
 .hot-sale-text-container {
     text-align: center;
     width: 50%;
-
 }
 
 .hot-sale-title {
@@ -328,6 +321,7 @@ input {
 
 
 /* footer Section Design */
+
 #footer {
     background-color: #111010;
     padding: 80px 0;
