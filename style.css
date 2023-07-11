@@ -137,6 +137,10 @@
 
 }
 
+.card-2 img {
+    height: 70%;
+}
+
 .card-3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
@@ -173,11 +177,58 @@
 }
 
 
+/* Our Latest blog post Section Design  */
+
+#blog-section {
+    height: 100vh;
+    padding: 6% 0;
+}
+
+#blog-section .regular-p-tag {
+    margin: 15px 0;
+}
+
+.post-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.post-card {
+    text-align: center;
+    background-color: rgba(229, 84, 115, 0.20);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+
+
+.post-cta small {
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.post-icon {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.post-cta .btn {
+    margin: 15px 0;
+}
+
+
+.post-cta .sub-title {
+    margin: 15px 0 2px;
+}
+
+
 /* Our Hot Sale Section Design  */
 
 
 #hot-sale-banner {
-    /* background-color: #E55473; */
+
     background-color: rgba(229, 84, 115, 0.1);
     height: 50vh;
     padding: 6% 0;
@@ -211,41 +262,11 @@
 }
 
 
-/* Our Latest blog post Section Design  */
-
-#blog-section {
-    height: 100vh;
-    padding: 6% 0;
-}
-
-#blog-section .regular-p-tag {
-    margin: 15px 0;
-}
-
-.post-card-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0;
-}
-
-.post-card {
-    text-align: center;
-    background-color: rgba(229, 84, 115, 0.20);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    overflow: hidden;
-    padding-bottom: 15px;
-}
-
-.post-cta .sub-title {
-    margin: 15px 0;
-}
 
 
 /* Instagram Section Design  */
 
 #instagram-section {
-    background-color: rgba(229, 84, 115, 0.10);
     padding: 6% 0;
 }
 
@@ -304,4 +325,33 @@ input {
     padding: 15px 10px;
     border-radius: 8px;
     width: 45%;
+}
+
+
+/* footer Section Design */
+#footer {
+    background-color: #111010;
+    padding: 8% 0;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-weight: 900;
+}
+
+#footer span {
+    color: #FFFFFF;
+}
+
+
+.footer-text {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+#footer small {
+    color: rgba(255, 255, 255, 0.4);
 }
