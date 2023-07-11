@@ -1,4 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/* Univarsal Design */
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
+
+.container{
+    padding: 0 120px;
+
+}
+
+
+.btn{
+    background-color: #E55473;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.regular-p-tag{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.title{
+font-size: 35px;
+font-weight: 700;
+color: #272727;
+}
+
+
+/* Header Section Design */
+
+header{
+    background-color: #E55473;
+    /* background-color:  rgba(229, 84, 115, 0.10); */
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding-top: 50px;
+
+}
+
+.banner-text-container{
+    width: 560px;
+}
+
+.banner-title{
+    font-size: 60px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.banner-description{
+    margin: 30px 0;
+}
+
+.banner-image-container{
+    height: 600px;
+    width: 480px;
+
+
+}
+.banner-image{
+    height: 100%;
+    width: 100%;
+}
+
+/* Our Featured Flowers Section Design */
