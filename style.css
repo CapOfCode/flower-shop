@@ -19,7 +19,7 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 22px;
     border: none;
     border-radius: 8px;
 }
@@ -30,6 +30,7 @@
     margin: 30px 0;
     color: rgba(39, 39, 39, 0.6);
     text-align: center;
+    line-height: 25px;
 }
 
 .title{
@@ -43,8 +44,8 @@ text-align: center;
 /* Header Section Design */
 
 #header-section{
-    background-color: #E55473;
-    /* background-color:  rgba(229, 84, 115, 0.10); */
+    /* background-color: #E55473; */
+    background-color:  rgba(229, 84, 115, 0.10);
 }
 
 .banner-container{
@@ -83,7 +84,7 @@ text-align: left;
 
 /* Our Featured Flowers Section Design */
 #feature-section{
-    padding: 100px 0;
+    padding: 100px 0 20px;
 }
 
 .featured-card-container{
@@ -132,15 +133,14 @@ text-align: left;
   }
 
 .featured-card-text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #272727;
     margin: 30px 0;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+    box-shadow: 0px 1px 0px 0px #272727;
 }
 
-/* Insight Card Design */
+/* Our Featured Flowers Section [Insight Banner] Design  */
 
 .service-insight{
     background-color: rgba(39, 39, 39, 0.05);
@@ -148,6 +148,7 @@ text-align: left;
     justify-content: space-around;
     padding: 60px 80px;
     margin: 80px 0;
+
 }
 
 .insight-card{
@@ -159,8 +160,50 @@ text-align: left;
 }
 
 .insight-card-text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.8);
     margin-top: 30px;
+}
+
+
+/* Our Hot Sale Section Design  */
+#hot-sale-banner{
+    /* background-color: #E55473; */
+    background-color:  rgba(229, 84, 115, 0.10);
+    height: 50vh;
+    padding: 6% 0;
+}
+
+
+.sale-banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hot-sale-text-container{
+    text-align: center;
+    width:50%;
+
+}
+
+.hot-sale-title{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.hot-sale-title span{
+   color: #E55473;
+}
+
+.hot-sale-image{
+    height: 300px;
+    width: 240px;
+}
+
+
+
+#blog-section{
+    height: 100vh;
 }
