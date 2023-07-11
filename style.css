@@ -197,8 +197,7 @@
 .post-card {
     text-align: center;
     background-color: rgba(229, 84, 115, 0.20);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
     overflow: hidden;
     padding-bottom: 15px;
 }
